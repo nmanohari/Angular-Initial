@@ -1,0 +1,8 @@
+<h2>Git Repos</h2>
+<button type="button" (click)="getRepos()">Click Me</button>
+
+<a *ngFor="let repo of repos">
+<div class="module hero">
+<h4>{{repo.name}}</h4>
+</div>
+</a>
